@@ -3,7 +3,6 @@
   "name": "DecodeLingo sight",
   "version": "0.1.0",
   "description": "特定の文字列を置き換えるだけの「ジョーク」ブラウザ拡張機能",
-  "homepage": "https://github.com/Awayume/DecodeLingo-sight#readme",
   "permissions": [],
   "host_permissions": ["<all_urls>"],
   "content_scripts": [
@@ -14,7 +13,7 @@
   ],
   "web_accessible_resources": [
     {
-      "resources": ["src/*"],
+      "resources": ["package.json", "src/*"],
       "matches": ["<all_urls>"]
     }
   ]

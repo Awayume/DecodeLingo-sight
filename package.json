@@ -1,0 +1,37 @@
+{
+  "name": "dlsight",
+  "version": "0.1.0",
+  "private": true,
+  "description": "特定の文字列を置き換えるだけの「ジョーク」ブラウザ拡張機能",
+  "type": "module",
+  "homepage": "https://github.com/Awayume/DecodeLingo-sight#readme",
+  "bugs": {
+    "url": "https://github.com/Awayume/DecodeLingo-sight/issues"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Awayume",
+    "email": "dev@awayume.jp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Awayume/DecodeLingo-sight.git"
+  },
+  "scripts": {
+    "build": "echo \"Error: no build specified\" && exit 1",
+    "lint": "eslint ./src/**/*.mjs",
+    "lint:fix": "eslint --fix ./src/**/*.mjs",
+    "test": "tsc"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.263",
+    "eslint": "^8.56.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-jsdoc": "^48.2.0",
+    "eslint-plugin-sonarjs": "^0.24.0",
+    "eslint-plugin-unicorn": "^51.0.1",
+    "eslint-plugin-unused-imports": "^3.1.0",
+    "typescript": "^5.4.3"
+  }
+}

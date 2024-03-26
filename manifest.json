@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "DecodeLingo sight",
+  "version": "0.1.0",
+  "description": "特定の文字列を置き換えるだけの「ジョーク」ブラウザ拡張機能",
+  "homepage": "https://github.com/Awayume/DecodeLingo-sight#readme",
+  "permissions": [],
+  "host_permissions": ["<all_urls>"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["src/entry/content.mjs"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["src/*"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}

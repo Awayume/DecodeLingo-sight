@@ -7,6 +7,6 @@
     "noEmit": true,
     "strict": true
   },
-  "include": ["src/**/*.mjs"],
+  "include": ["src"],
   "exclude": ["build", "node_modules"]
 }

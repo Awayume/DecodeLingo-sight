@@ -3,7 +3,7 @@
 
 (() => {
   const script = document.createElement('script');
-  script.setAttribute('src', chrome.runtime.getURL('/src/main.mjs'));
+  script.setAttribute('src', chrome.runtime.getURL('/src/main.js'));
   script.setAttribute('type', 'module');
   document.body.append(script);
 })();

@@ -19,8 +19,8 @@
   },
   "scripts": {
     "build": "echo \"Error: no build specified\" && exit 1",
-    "lint": "eslint ./src/**/*.mjs",
-    "lint:fix": "eslint --fix ./src/**/*.mjs",
+    "lint": "eslint ./src",
+    "lint:fix": "eslint --fix ./src",
     "test": "tsc"
   },
   "devDependencies": {

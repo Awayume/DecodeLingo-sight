@@ -5,6 +5,7 @@
 // @ts-expect-error
 import packageJson from '../package.json' with {type: 'json'};
 
+
 (() => {
   console.info(
       '== DecodeLingo sight -----------------------------------------\n' +

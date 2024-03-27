@@ -36,7 +36,7 @@ export default class Replacer {
         let text = element.textContent;
         // eslint-disable-next-line guard-for-in
         for (const base in this.rules) {
-          text = text.replace(base, this.rules[base]);
+          text = text.replaceAll(base, this.rules[base]);
         }
         element.textContent = text;
       }

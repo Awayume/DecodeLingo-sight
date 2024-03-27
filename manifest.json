@@ -3,7 +3,7 @@
   "name": "DecodeLingo sight",
   "version": "0.1.0",
   "description": "特定の文字列を置き換えるだけの「ジョーク」ブラウザ拡張機能",
-  "permissions": [],
+  "permissions": ["storage"],
   "host_permissions": ["<all_urls>"],
   "content_scripts": [
     {

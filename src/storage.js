@@ -1,0 +1,1 @@
+../res/js/storage.js

@@ -9,7 +9,7 @@ export default class Replacer {
    * クラスを初期化する。
    */
   constructor() {
-    /** @type {Object<string, string>} */
+    /** @type {import('./storage.js').RuleSet} */
     this.rules = {};
   }
 
